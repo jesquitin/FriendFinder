@@ -193,7 +193,7 @@
 
     var currentURL = window.location.origin;
 
-    $.post(currentURL + "../data/friends.js", newFriend, function (data) {
+    $.post(currentURL + "/api/friends", newFriend, function (data) {
         console.log(data);
 
     })

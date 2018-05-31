@@ -15,10 +15,7 @@ module.exports = function(app) {
 
 	// Create New Characters - takes in JSON input
 	app.post("../data/friends.js", function(req, res){
-		//res.json(true);
-		//console.log(req.body);
-		//console.log(friendsList);
-
+	
 		//functions to return best match
 		var bestMatch = {
 			'name': 'none',

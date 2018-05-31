@@ -2,7 +2,7 @@ var friends = [
 	{	
   "name":"Robert De Niro",
   "photo":"https://bamfstyle.files.wordpress.com/2016/12/casino45red-main.jpg",
-  "scores":[5, 5, 4, 4, 5, 5, 5, 5, 5, 5]
+  "scores":[5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
   },
 
   {
@@ -15,7 +15,7 @@ var friends = [
   {
   "name":"Marlon Brando",
   "photo":"http://cdn6.bigcommerce.com/s-o6vy9cv/products/151227/images/146700/202504__11658.1527147875.1280.1280.jpg?c=2",
-  "scores":[1, 4, 5, 2, 5, 3, 2, 4, 4, 1]
+  "scores":[5, 4, 5, 4, 5, 3, 4, 4, 4, 1]
   },
 
   {
@@ -31,3 +31,7 @@ var friends = [
   }
 
 ];
+
+//Export to use with other files
+
+module.exports = friends;
